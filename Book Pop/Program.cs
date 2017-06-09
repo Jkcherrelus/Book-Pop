@@ -17,6 +17,7 @@ namespace Book_Pop
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
             Application.Run(new Form1());
+            Controller control = new Controller();
         }
     }
 }
